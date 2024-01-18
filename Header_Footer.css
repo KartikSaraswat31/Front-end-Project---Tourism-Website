@@ -1,0 +1,127 @@
+
+
+#mail {
+    color: brown;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#subs {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+nav a{
+    font-weight: 600;
+}
+
+input {
+    height: 40px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+::placeholder {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    font-size: 20px;
+    height: 40px;
+    width: 60px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#tfs {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px
+}
+
+
+#last {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+:root{
+    --maincolor:#163235;
+    --secondclr:brown;
+    --thirdcolor:#1C4961;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.header{
+    font-family: 'Times New Roman', Times, serif !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    padding: 20px 7%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 100000;
+    background-color: white;
+}
+.header #logo{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.header #logo span{
+    color: var(--secondclr);
+}
+.navbar a{
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--maincolor);
+    font-weight: 400;
+}
+.navbar a:hover{
+    color: var(--secondclr);
+}
+.navbar.active{
+    left: 0;
+}
+
+@media (max-width:768px) {
+    html{
+        font-size: 55%;
+    }
+    .icons #menu-bars{
+        display: initial;
+    
+    }
+    .header{
+        padding: 2rem;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 100%;
+        right: 0;
+    }
+    .navbar a{
+        display: block;
+        font-size: 1.5rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+}

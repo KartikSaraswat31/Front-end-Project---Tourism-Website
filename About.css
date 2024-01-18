@@ -1,0 +1,35 @@
+
+main {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+#h {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: brown;
+    align-items: center;
+    align-content: center;
+}
+
+#abcd {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Times, serif;
+}
+
+.p1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#l {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-size: 30px;
+}
