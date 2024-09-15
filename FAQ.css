@@ -52,9 +52,10 @@ flex-direction: column;
     background-color: white;
     display: none;
     overflow: hidden;
+    font-size: 15px;
 }
 
-.faq-page:after {
+.faq-page::after {
     content: '\02795';
     /* Unicode character for "plus" sign (+) */
     font-size: 13px;
@@ -63,7 +64,7 @@ flex-direction: column;
     margin-left: 5px;
 }
 
-.active:after {
+.active::after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 }

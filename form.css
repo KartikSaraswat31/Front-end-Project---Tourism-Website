@@ -1,64 +1,83 @@
-
-
-*{margin-top:10px;margin-left:40px;margin-right:40px;margin-bottom:5px }
-*{box-sizing: border-box;}
-
-
-body{font-family:Arial, Helvetica, sans-serif;font-size:20px;}
-*{box-sizing:border-box}
-input[type=text], input[type=password],input[type=email]{
-    width:50%;  padding:15px; ;
-    display:inline-block;
-    border:none;
-    background:rgb(212, 210, 210);
+* {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 5px;
 }
-input[type=text]:focus,input[type=password]:focus,input[type=email]:focus{
-    background-color: #ddd;
-    outline:none;
+* {
+  box-sizing: border-box;
 }
 
-
-p{margin:20px 10px 0 0;}
-select{
-    width:50%;  padding:15px;
-    display:inline-block;
-    border:none;
-    background:rgb(212, 210, 210);
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
-select:focus{ background-color: #ddd;
-    outline:none;}
-hr{
-    border:1px solid black;
-    margin-bottom:25px; margin-top:25px;
+* {
+  box-sizing: border-box;
+}
+input[type=text],
+input[type=password],
+input[type=email] {
+  width: 50%;
+  padding: 15px;
+  display: inline-block;
+  border: none;
+  background: rgb(212, 210, 210);
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+p {
+  margin: 20px 10px 0 0;
+}
+select {
+  width: 50%;
+  padding: 15px;
+  display: inline-block;
+  border: none;
+  background: rgb(212, 210, 210);
+}
+select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid black;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 button {
-    background-color: #0d100e;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-  }
-button:hover{
-    opacity:1;
+  background-color: #0d100e;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
 }
-input[type=checkbox]{margin:0 10px 0 0 ;}
-.signupbtn{width:50%;}
-
-
-.clearfix::after{
-    content: "";
-    clear:both;
-    display:table
-
-
+button:hover {
+  opacity: 1;
 }
-a{
-    margin: 20px 20px 20px 0px;
+input[type="checkbox"] {
+  margin: 0 10px 0 0;
 }
-#sign_in{margin-left:180px;}
+.signupbtn {
+  width: 50%;
+}
 
-
-
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a {
+  margin: 20px 20px 20px 0px;
+}
+#sign_in {
+  margin-left: 180px;
+}
